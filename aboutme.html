@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="description" content="Learn html"/>
+    <meta name="keywords" content="HTML, CSS"/>
+    <link rel="shortcut icon" type="image/jpeg" href="http://iconbug.com/download/size/256/icon/4391/red-big-z/">
+    <title>Zair Olimov</title>
+
+
+    <style>
+* {
+    box-sizing: border-box;
+
+}
+
+#content {
+  margin: 0 auto;
+  width: 960px;
+}
+
+body {
+			font: 15px/1.5 arial, helvetica, sans-serif;
+      background-color: #E6E6FA;
+		}
+		#paragraph:first-letter {
+			float: left;
+			font-size: 45px;
+			line-height: 1;
+			font-weight: bold;
+			margin-right: 9px;
+		}
+
+.columns {
+    float: left;
+    width: 40%;
+    padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+ol#reversedList {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+li#reversedList {
+    flex: 0 0 auto;
+}
+</style>
+  </head>
+  <body>
+
+  <div id="content">
+
+<h2>Olimov Zair</h2>
+<p id="paragraph">Experienced Android Developer with a demonstrated history of working in the internet industry.<br> Skilled in C++, Android, Mobile Applications, Ubuntu, and Object-Oriented Programming (OOP).</p>
+
+<h3 style="color: red">My courses:</h3>
+<ol>
+  <li>MPP - Modern Programming Practices</li>
+  <li>BDT - Big Data Technology</li>
+  <li>BD - Big Data</li>
+  <li>WAP - Web Programming</li>
+  <li>Algorithms</li>
+</ol>
+
+<h3 style="color: red">My favorite books:</h3>
+<ol id="reversedList" reversed>
+  <li><a href="http://www.m5zn.com/newuploads/2013/05/09/pdf/f3392b55b5cd48e.pdf" style="text-decoration: none">Algorithm Design</a>
+  <dl>
+  <dt style="color: green">Authors:</dt>
+    <dd>Michael T. Goodrich, Roberto Tamassia</dd>
+  <dt style="color: green">Year:</dt>
+    <dd>2001</dd>
+  </dl>
+</li>
+  <li><a href="https://labs.xjtudlc.com/labs/wldmt/reading%20list/books/Algorithms%20and%20optimization/Introduction%20to%20Algorithms.pdf" style="text-decoration: none">Introduction to Algorithms</a>
+    <dl>
+    <dt style="color: green">Authors:</dt>
+      <dd>THOMAS H. CORMEN, CLIFFORD STEIN</dd>
+    <dt style="color: green">Year:</dt>
+      <dd>2009</dd>
+    </dl>
+  </li>
+  <li><a href="http://lib.mdp.ac.id/ebook/Karya%20Umum/Dsa.pdf" style="text-decoration: none">Data Structure and Algorithms</a>
+    <dl>
+    <dt style="color: green">Authors:</dt>
+      <dd>Luca Del Tongo</dd>
+    <dt style="color: green">Year:</dt>
+      <dd>2008</dd>
+    </dl>
+  </li>
+
+</ol>
+
+<h3 style="color: red">My Moods:</h3>
+<div class="row">
+  <div class="columns">
+
+  <p> happy:
+    <img src="https://media.giphy.com/media/XB6pGqvOfJqY8/giphy.gif"
+    alt="happy" width="320" height="280">
+    </p>
+
+  </div>
+  <div class="columns">
+    <p> sad:
+    <img src="http://mashable.com/wp-content/uploads/2013/07/Supernatural-Dean.gif" alt="sad" width="320" height="280">
+    </p>
+  </div>
+</div>
+
+<h3 style="color: red">Fun Facts About My Neighbors</h3>
+
+<ol>
+  <li>Mugi: He is a Ninja</li>
+  <li>Tarlan: He is a King Of The North</li>
+  </ol>
+
+<a href="http://validator.w3.org/check/referer">
+<img src="http://mumstudents.org/cs472/2013-09/images/w3c-html.png" alt="v">
+</a>
+<a href="http://jigsaw.w3.org/css-validator/check/referer">
+  <img src="http://mumstudents.org/cs472/2013-09/images/w3c-css.png" alt="a">
+  </a>
+</div>
+  </body>
+
+</html>
